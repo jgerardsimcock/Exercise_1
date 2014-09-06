@@ -1,15 +1,13 @@
-var test = 5;
-var array1 = [];
-var array2 = [];
+var mil = [];
 
 window.onload = function(){
 
     //EMPTY ARRAY TO HOLD BASE 1-1000 INDEXES
-    var mil = [];
+    
     //ITERATES 1000 TIMES
     for (var i = 0; i < 1000; i++) {
       mil.push(i);
-};
+    }
   console.log(mil);
 };
 
